@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Usuario_Id: 1
+  Onibus_Id_Onibus: MyString
+  Localizacao: MyString
+  Data_2: 2020-12-13
+  Hora: 2020-12-13 20:57:35
+
+two:
+  Usuario_Id: 1
+  Onibus_Id_Onibus: MyString
+  Localizacao: MyString
+  Data_2: 2020-12-13
+  Hora: 2020-12-13 20:57:35

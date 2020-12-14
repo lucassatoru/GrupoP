@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Id_Onibus: MyString
+  Apelido: MyString
+  Terminal_Partida: MyString
+  Terminal_Chegada: MyString
+  CodigoOnibus: 1
+
+two:
+  Id_Onibus: MyString
+  Apelido: MyString
+  Terminal_Partida: MyString
+  Terminal_Chegada: MyString
+  CodigoOnibus: 1
