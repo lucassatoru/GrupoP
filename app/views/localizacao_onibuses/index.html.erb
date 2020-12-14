@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Localizacao Onibuses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Usuario id</th>
+      <th>Onibus id onibus</th>
+      <th>Localizacao</th>
+      <th>Data 2</th>
+      <th>Hora</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @localizacao_onibuses.each do |localizacao_onibus| %>
+      <tr>
+        <td><%= localizacao_onibus.Usuario_Id %></td>
+        <td><%= localizacao_onibus.Onibus_Id_Onibus %></td>
+        <td><%= localizacao_onibus.Localizacao %></td>
+        <td><%= localizacao_onibus.Data_2 %></td>
+        <td><%= localizacao_onibus.Hora %></td>
+        <td><%= link_to 'Show', localizacao_onibus %></td>
+        <td><%= link_to 'Edit', edit_localizacao_onibus_path(localizacao_onibus) %></td>
+        <td><%= link_to 'Destroy', localizacao_onibus, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Localizacao Onibus', new_localizacao_onibus_path %>

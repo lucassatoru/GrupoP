@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Usuario id:</strong>
+  <%= @localizacao_onibus.Usuario_Id %>
+</p>
+
+<p>
+  <strong>Onibus id onibus:</strong>
+  <%= @localizacao_onibus.Onibus_Id_Onibus %>
+</p>
+
+<p>
+  <strong>Localizacao:</strong>
+  <%= @localizacao_onibus.Localizacao %>
+</p>
+
+<p>
+  <strong>Data 2:</strong>
+  <%= @localizacao_onibus.Data_2 %>
+</p>
+
+<p>
+  <strong>Hora:</strong>
+  <%= @localizacao_onibus.Hora %>
+</p>
+
+<%= link_to 'Edit', edit_localizacao_onibus_path(@localizacao_onibus) %> |
+<%= link_to 'Back', localizacao_onibuses_path %>
