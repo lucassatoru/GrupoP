@@ -1,0 +1,2113 @@
+  [1m[35m (4.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (123.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (80.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213151159)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id" varchar(20), "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213151159)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id" varchar(20), "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213151159)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id" varchar(20), "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213151159)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id" varchar, "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213151159)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id" varchar, "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213151159)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id" varchar, "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213151159)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id_Onibus" varchar, "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201213151159"]]
+  [1m[36mTRANSACTION (77.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateLocalizacaoOnibuses (20201213151354)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "localizacao_onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id_Onibus" varchar, "Usuario_Id" integer, "Ponto_Medicao" varchar, "Data_2" date, "Hora" datetime, "Id_Usuario" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201213151354"]]
+  [1m[36mTRANSACTION (76.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-13 15:49:44.538382"], ["updated_at", "2020-12-13 15:49:44.538382"]]
+  [1m[36mTRANSACTION (74.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-12-13 13:09:31 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 22.2ms | Allocations: 465)
+Completed 200 OK in 75ms (Views: 37.9ms | ActiveRecord: 0.0ms | Allocations: 3888)
+
+
+Started GET "/buses" for ::1 at 2020-12-13 13:10:09 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/buses"):
+  
+Started GET "/onibuses" for ::1 at 2020-12-13 13:10:16 -0300
+Processing by OnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.2ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1083)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/rails/GrupoP/public/packs
+[Webpacker] Hash: 415a948d492e21802f43
+Version: webpack 4.44.2
+Time: 3611ms
+Built at: 2020-12-13 13:10:26
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d5a3c3b4dce84b5eb605.js    125 KiB  application  [emitted] [immutable]  application
+js/application-d5a3c3b4dce84b5eb605.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d5a3c3b4dce84b5eb605.js js/application-d5a3c3b4dce84b5eb605.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 10129.7ms | Allocations: 26482)
+Completed 200 OK in 10146ms (Views: 10135.5ms | ActiveRecord: 0.2ms | Allocations: 28076)
+
+
+Started GET "/localizacaoonibuses" for ::1 at 2020-12-13 13:13:41 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/localizacaoonibuses"):
+  
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 13:14:20 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:19
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1044)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.2ms | Allocations: 5185)
+Completed 200 OK in 49ms (Views: 45.1ms | ActiveRecord: 0.2ms | Allocations: 6385)
+
+
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from migration_template at (erb):6)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from migration_template at (erb):6)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at bin/rails:4)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at bin/rails:4)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at bin/rails:4)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at bin/rails:4)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at bin/rails:4)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20201213175727)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201213175727"]]
+  [1m[36mTRANSACTION (93.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-12-13 14:58:46 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.4ms | Allocations: 338)
+Completed 200 OK in 20ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2596)
+
+
+Started GET "/" for ::1 at 2020-12-13 14:58:46 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.5ms | Allocations: 216)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 883)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 14:59:02 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:19
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1093)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 8835)
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 0.2ms | Allocations: 10250)
+
+
+Started GET "/" for ::1 at 2020-12-13 15:09:47 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.2ms | Allocations: 338)
+Completed 200 OK in 15ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 2596)
+
+
+Started GET "/" for ::1 at 2020-12-13 15:09:48 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.8ms | Allocations: 216)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 883)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 15:10:02 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 1332)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 15:10:02 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 2.3ms | Allocations: 610)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 37.4ms | Allocations: 3460)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 85.6ms | Allocations: 11190)
+Completed 200 OK in 108ms (Views: 94.2ms | ActiveRecord: 0.5ms | Allocations: 17853)
+
+
+Started GET "/index" for ::1 at 2020-12-13 15:10:38 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/" for ::1 at 2020-12-13 15:14:55 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 46)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 414)
+
+
+Started GET "/" for ::1 at 2020-12-13 15:23:01 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 45)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 397)
+
+
+Started GET "/" for ::1 at 2020-12-13 15:23:02 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 45)
+Completed 200 OK in 6ms (Views: 5.9ms | Allocations: 397)
+
+
+Started GET "/users" for ::1 at 2020-12-13 15:23:08 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 15:23:16 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+Completed 401 Unauthorized in 1ms (Allocations: 245)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 15:23:16 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 155)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1023)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.5ms | Allocations: 5264)
+Completed 200 OK in 41ms (Views: 38.8ms | Allocations: 5881)
+
+
+Started GET "/" for ::1 at 2020-12-13 15:23:29 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 46)
+Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 403)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 15:23:36 -0300
+Processing by OnibusesController#index as HTML
+Completed 401 Unauthorized in 1ms (Allocations: 304)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 15:23:36 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 153)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1012)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 5220)
+Completed 200 OK in 43ms (Views: 42.2ms | Allocations: 5811)
+
+
+Started GET "/" for ::1 at 2020-12-13 15:27:46 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.2ms | Allocations: 338)
+Completed 200 OK in 24ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 2608)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 15:27:52 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 929)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 15:27:52 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 614)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2812)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.1ms | Allocations: 10542)
+Completed 200 OK in 68ms (Views: 61.2ms | ActiveRecord: 0.6ms | Allocations: 16967)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 15:28:01 -0300
+Processing by OnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.2ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1056)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.1ms | Allocations: 5230)
+Completed 200 OK in 49ms (Views: 46.5ms | ActiveRecord: 0.2ms | Allocations: 6431)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 15:30:10 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OnibusesController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 1760)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 15:30:10 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 615)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 2924)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 10658)
+Completed 200 OK in 70ms (Views: 62.9ms | ActiveRecord: 0.5ms | Allocations: 17750)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 15:30:15 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:19
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.0ms | Allocations: 5248)
+Completed 200 OK in 49ms (Views: 46.8ms | ActiveRecord: 0.2ms | Allocations: 6453)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 15:31:56 -0300
+Processing by OnibusesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 227)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 15:31:56 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 153)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1021)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.1ms | Allocations: 5232)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms | Allocations: 5837)
+
+
+Started GET "/" for ::1 at 2020-12-13 15:33:21 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.8ms | Allocations: 223)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 984)
+
+
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mOnibus Destroy (75.4ms)[0m  [1m[31mDELETE FROM "onibuses"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mOnibus Destroy (75.2ms)[0m  [1m[31mDELETE FROM "onibuses"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "8012-10-Metro Butanta/Cid. Universitaria"], ["Localizacao_Onibus_Id_Onibus", "1"], ["Apelido", "8012"], ["Ponto_Inicial", "Metro Butanta"], ["Ponto_Final", "Cid. Universitaria"], ["created_at", "2020-12-13 19:16:04.286154"], ["updated_at", "2020-12-13 19:16:04.286154"]]
+  [1m[36mTRANSACTION (77.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (0.9ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "8022-10-Metro Butanta/Cid. Universitaria"], ["Localizacao_Onibus_Id_Onibus", "2"], ["Apelido", "8022"], ["Ponto_Inicial", "Metro Butanta"], ["Ponto_Final", "Cid. Universitaria"], ["created_at", "2020-12-13 19:16:04.367409"], ["updated_at", "2020-12-13 19:16:04.367409"]]
+  [1m[36mTRANSACTION (81.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "177H-10-Metro Santana/Cid. Universitaria"], ["Localizacao_Onibus_Id_Onibus", "3"], ["Apelido", "177H"], ["Ponto_Inicial", "Metro Santana"], ["Ponto_Final", "Cid. Universitaria"], ["created_at", "2020-12-13 19:16:04.452003"], ["updated_at", "2020-12-13 19:16:04.452003"]]
+  [1m[36mTRANSACTION (82.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (0.9ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "701U-10-Metro Santana/Cid. Universitaria"], ["Localizacao_Onibus_Id_Onibus", "4"], ["Apelido", "701U"], ["Ponto_Inicial", "Metro Santana"], ["Ponto_Final", "Cid. Universitaria"], ["created_at", "2020-12-13 19:16:04.537241"], ["updated_at", "2020-12-13 19:16:04.537241"]]
+  [1m[36mTRANSACTION (81.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "702U-10-Cid. Universitaria/Term. Pq. D. Pedro II"], ["Localizacao_Onibus_Id_Onibus", "5"], ["Apelido", "702U"], ["Ponto_Inicial", "Cid. Universitaria"], ["Ponto_Final", "Term. Pq. D. Pedro II"], ["created_at", "2020-12-13 19:16:04.622216"], ["updated_at", "2020-12-13 19:16:04.622216"]]
+  [1m[36mTRANSACTION (81.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (0.9ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "7181-10-Cid. Universitaria/Term. Princ. Isabel"], ["Localizacao_Onibus_Id_Onibus", "6"], ["Apelido", "7181"], ["Ponto_Inicial", "Cid. Universitaria"], ["Ponto_Final", "Term. Princ. Isabel"], ["created_at", "2020-12-13 19:16:04.707217"], ["updated_at", "2020-12-13 19:16:04.707217"]]
+  [1m[36mTRANSACTION (81.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "7411-10-Cid. Universitaria/Pca. da Se"], ["Localizacao_Onibus_Id_Onibus", "7"], ["Apelido", "7411"], ["Ponto_Inicial", "Cid. Universitaria"], ["Ponto_Final", "Pca. da Se"], ["created_at", "2020-12-13 19:16:04.792363"], ["updated_at", "2020-12-13 19:16:04.792363"]]
+  [1m[36mTRANSACTION (81.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (0.9ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "809U-10-Cid. Universitaria/Metro Barra Funda"], ["Localizacao_Onibus_Id_Onibus", "8"], ["Apelido", "809U"], ["Ponto_Inicial", "Cid. Universitaria"], ["Ponto_Final", "Metro Barra Funda"], ["created_at", "2020-12-13 19:16:04.877411"], ["updated_at", "2020-12-13 19:16:04.877411"]]
+  [1m[36mTRANSACTION (81.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2020-12-13 16:17:56 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 20.7ms | Allocations: 338)
+Completed 200 OK in 61ms (Views: 32.7ms | ActiveRecord: 0.0ms | Allocations: 2607)
+
+
+Started GET "/" for ::1 at 2020-12-13 16:17:56 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.4ms | Allocations: 216)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 893)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 16:18:03 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:19
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1093)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 111.8ms | Allocations: 8836)
+Completed 200 OK in 126ms (Views: 116.6ms | ActiveRecord: 0.2ms | Allocations: 10261)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 16:18:12 -0300
+Processing by OnibusesController#index as HTML
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 916)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 16:18:13 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 2.1ms | Allocations: 610)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 36.6ms | Allocations: 2791)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 79.8ms | Allocations: 6963)
+Completed 200 OK in 100ms (Views: 88.7ms | ActiveRecord: 0.5ms | Allocations: 13152)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-12-13 16:21:21 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_error_messages.html.erb (Duration: 2.0ms | Allocations: 223)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 142)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.1ms | Allocations: 6061)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms | Allocations: 7364)
+
+
+Started POST "/users" for ::1 at 2020-12-13 16:22:52 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"teste@teste", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "teste@teste"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "teste@teste"], ["encrypted_password", "$2a$12$BIrWZ68ytsi/Lq1rm3rDMuhXRS3A1CExD6GpAciU0JiuFRzzFrndC"], ["created_at", "2020-12-13 19:22:52.714623"], ["updated_at", "2020-12-13 19:22:52.714623"]]
+  [1m[36mTRANSACTION (71.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 343ms (ActiveRecord: 72.4ms | Allocations: 11394)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 16:22:52 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.2ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 8149)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 8214)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 1.3ms | Allocations: 10488)
+
+
+  
+ActionView::Template::Error (undefined method `Id' for #<Onibus:0x000000000cf674b0>
+Did you mean?  id?
+               id=):
+    17:   <tbody>
+    18:     <% @onibuses.each do |onibus| %>
+    19:       <tr>
+    20:         <td><%= onibus.Id %></td>
+    21:         <td><%= onibus.Localizacao_Onibus_Id_Onibus %></td>
+    22:         <td><%= onibus.Apelido %></td>
+    23:         <td><%= onibus.Ponto_Inicial %></td>
+  
+app/views/onibuses/index.html.erb:20
+app/views/onibuses/index.html.erb:18
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mOnibus Destroy (77.8ms)[0m  [1m[31mDELETE FROM "onibuses"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213194915)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id_Onibus" varchar, "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213194915)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id_Onibus" varchar, "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213194915)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id_Onibus" varchar, "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (72.8ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOnibuses (20201213194915)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id_Onibus" varchar, "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20201213175727)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20201213175727)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20201213175727)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (126.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (71.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateLocalizacaoOnibuses (20201213151354)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "localizacao_onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id_Onibus" varchar, "Usuario_Id" integer, "Ponto_Medicao" varchar, "Data_2" date, "Hora" datetime, "Id_Usuario" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201213151354"]]
+  [1m[36mTRANSACTION (73.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to DeviseCreateUsers (20201213175727)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201213175727"]]
+  [1m[36mTRANSACTION (75.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateOnibuses (20201213194915)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id_Onibus" varchar, "Localizacao_Onibus_Id_Onibus" varchar, "Apelido" varchar, "Ponto_Inicial" varchar, "Ponto_Final" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201213194915"]]
+  [1m[36mTRANSACTION (78.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-13 20:06:57.717468"], ["updated_at", "2020-12-13 20:06:57.717468"]]
+  [1m[36mTRANSACTION (67.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mOnibus Destroy (133.8ms)[0m  [1m[31mDELETE FROM "onibuses"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "8012-10-Metro Butanta/Cid. Universitaria"], ["Localizacao_Onibus_Id_Onibus", "1"], ["Apelido", "8012"], ["Ponto_Inicial", "Metro Butanta"], ["Ponto_Final", "Cid. Universitaria"], ["created_at", "2020-12-13 21:21:18.673489"], ["updated_at", "2020-12-13 21:21:18.673489"]]
+  [1m[36mTRANSACTION (77.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (0.9ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "8022-10-Metro Butanta/Cid. Universitaria"], ["Localizacao_Onibus_Id_Onibus", "2"], ["Apelido", "8022"], ["Ponto_Inicial", "Metro Butanta"], ["Ponto_Final", "Cid. Universitaria"], ["created_at", "2020-12-13 21:21:18.754448"], ["updated_at", "2020-12-13 21:21:18.754448"]]
+  [1m[36mTRANSACTION (71.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "177H-10-Metro Santana/Cid. Universitaria"], ["Localizacao_Onibus_Id_Onibus", "3"], ["Apelido", "177H"], ["Ponto_Inicial", "Metro Santana"], ["Ponto_Final", "Cid. Universitaria"], ["created_at", "2020-12-13 21:21:18.828862"], ["updated_at", "2020-12-13 21:21:18.828862"]]
+  [1m[36mTRANSACTION (70.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "701U-10-Metro Santana/Cid. Universitaria"], ["Localizacao_Onibus_Id_Onibus", "4"], ["Apelido", "701U"], ["Ponto_Inicial", "Metro Santana"], ["Ponto_Final", "Cid. Universitaria"], ["created_at", "2020-12-13 21:21:18.902237"], ["updated_at", "2020-12-13 21:21:18.902237"]]
+  [1m[36mTRANSACTION (70.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.1ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "702U-10-Cid. Universitaria/Term. Pq. D. Pedro II"], ["Localizacao_Onibus_Id_Onibus", "5"], ["Apelido", "702U"], ["Ponto_Inicial", "Cid. Universitaria"], ["Ponto_Final", "Term. Pq. D. Pedro II"], ["created_at", "2020-12-13 21:21:18.976155"], ["updated_at", "2020-12-13 21:21:18.976155"]]
+  [1m[36mTRANSACTION (70.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (0.9ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "7181-10-Cid. Universitaria/Term. Princ. Isabel"], ["Localizacao_Onibus_Id_Onibus", "6"], ["Apelido", "7181"], ["Ponto_Inicial", "Cid. Universitaria"], ["Ponto_Final", "Term. Princ. Isabel"], ["created_at", "2020-12-13 21:21:19.050059"], ["updated_at", "2020-12-13 21:21:19.050059"]]
+  [1m[36mTRANSACTION (70.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "7411-10-Cid. Universitaria/Pca. da Se"], ["Localizacao_Onibus_Id_Onibus", "7"], ["Apelido", "7411"], ["Ponto_Inicial", "Cid. Universitaria"], ["Ponto_Final", "Pca. da Se"], ["created_at", "2020-12-13 21:21:19.123844"], ["updated_at", "2020-12-13 21:21:19.123844"]]
+  [1m[36mTRANSACTION (70.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Localizacao_Onibus_Id_Onibus", "Apelido", "Ponto_Inicial", "Ponto_Final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "809U-10-Cid. Universitaria/Metro Barra Funda"], ["Localizacao_Onibus_Id_Onibus", "8"], ["Apelido", "809U"], ["Ponto_Inicial", "Cid. Universitaria"], ["Ponto_Final", "Metro Barra Funda"], ["created_at", "2020-12-13 21:21:19.197669"], ["updated_at", "2020-12-13 21:21:19.197669"]]
+  [1m[36mTRANSACTION (70.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2020-12-13 18:21:49 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.2ms | Allocations: 338)
+Completed 200 OK in 16ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 2610)
+
+
+Started GET "/" for ::1 at 2020-12-13 18:21:49 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.3ms | Allocations: 216)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 895)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 18:22:01 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:19
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1095)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 66.8ms | Allocations: 9161)
+Completed 200 OK in 77ms (Views: 74.1ms | ActiveRecord: 0.2ms | Allocations: 10588)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 18:22:09 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.9ms | Allocations: 3080)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 18:22:09 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 610)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 2794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.8ms | Allocations: 6975)
+Completed 200 OK in 61ms (Views: 48.8ms | ActiveRecord: 0.0ms | Allocations: 12446)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 18:22:09 -0300
+Processing by OnibusesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 237)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 18:22:10 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 153)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1016)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.4ms | Allocations: 5225)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms | Allocations: 5827)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-12-13 18:22:32 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"teste@teste", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "teste@teste"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.2ms | Allocations: 1683)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"teste@teste", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 153)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1011)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.1ms | Allocations: 5252)
+Completed 200 OK in 230ms (Views: 44.7ms | ActiveRecord: 0.0ms | Allocations: 6323)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-12-13 18:22:38 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 223)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 142)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 10.2ms | Allocations: 1879)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.8ms | Allocations: 6050)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms | Allocations: 7344)
+
+
+Started POST "/users" for ::1 at 2020-12-13 18:22:51 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"teste@teste", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "teste@teste"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "teste@teste"], ["encrypted_password", "$2a$12$bPZgSb..g9Ci2arwca0Y5uJREE5D319TtDWSerL1igggbbs0.ffw2"], ["created_at", "2020-12-13 21:22:51.239840"], ["updated_at", "2020-12-13 21:22:51.239840"]]
+  [1m[36mTRANSACTION (76.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 309ms (ActiveRecord: 77.5ms | Allocations: 10069)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 18:22:51 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.3ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 5552)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 9724)
+Completed 200 OK in 54ms (Views: 46.6ms | ActiveRecord: 1.0ms | Allocations: 11949)
+
+
+Started GET "/" for ::1 at 2020-12-13 18:25:32 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 45)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 392)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 18:25:39 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.2ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.9ms | Allocations: 5772)
+Completed 200 OK in 48ms (Views: 41.3ms | ActiveRecord: 0.3ms | Allocations: 7268)
+
+
+Started GET "/onibuses" for 127.0.0.1 at 2020-12-13 18:26:11 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.3ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 5673)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.5ms | Allocations: 13421)
+Completed 200 OK in 92ms (Views: 67.6ms | ActiveRecord: 1.5ms | Allocations: 22723)
+
+
+Started GET "/" for ::1 at 2020-12-13 20:05:30 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.8ms | Allocations: 338)
+Completed 200 OK in 17ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 2612)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 20:05:32 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.4ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 5550)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.5ms | Allocations: 13292)
+Completed 200 OK in 68ms (Views: 54.7ms | ActiveRecord: 1.5ms | Allocations: 21097)
+
+
+Started DELETE "/onibuses/1" for ::1 at 2020-12-13 20:05:38 -0300
+Processing by OnibusesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses" WHERE "onibuses"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/onibuses_controller.rb:67:in `set_onibus'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mOnibus Destroy (0.8ms)[0m  [1m[31mDELETE FROM "onibuses" WHERE "onibuses"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mTRANSACTION (83.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 96ms (ActiveRecord: 84.9ms | Allocations: 3932)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 20:05:38 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1502)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.4ms | Allocations: 5673)
+Completed 200 OK in 46ms (Views: 39.5ms | ActiveRecord: 0.3ms | Allocations: 7170)
+
+
+Started DELETE "/onibuses/2" for ::1 at 2020-12-13 20:05:40 -0300
+Processing by OnibusesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses" WHERE "onibuses"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/onibuses_controller.rb:67:in `set_onibus'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mOnibus Destroy (1.4ms)[0m  [1m[31mDELETE FROM "onibuses" WHERE "onibuses"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mTRANSACTION (72.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 95ms (ActiveRecord: 74.0ms | Allocations: 3738)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 20:05:40 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1381)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 5566)
+Completed 200 OK in 48ms (Views: 42.5ms | ActiveRecord: 0.3ms | Allocations: 7062)
+
+
+Started DELETE "/onibuses/3" for ::1 at 2020-12-13 20:05:42 -0300
+Processing by OnibusesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses" WHERE "onibuses"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/onibuses_controller.rb:67:in `set_onibus'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mOnibus Destroy (1.6ms)[0m  [1m[31mDELETE FROM "onibuses" WHERE "onibuses"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mTRANSACTION (83.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 105ms (ActiveRecord: 85.4ms | Allocations: 3714)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 20:05:42 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1269)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 5448)
+Completed 200 OK in 49ms (Views: 42.6ms | ActiveRecord: 0.3ms | Allocations: 6941)
+
+
+Started DELETE "/onibuses/4" for ::1 at 2020-12-13 20:05:44 -0300
+Processing by OnibusesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mOnibus Load (0.2ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses" WHERE "onibuses"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/onibuses_controller.rb:67:in `set_onibus'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mOnibus Destroy (1.4ms)[0m  [1m[31mDELETE FROM "onibuses" WHERE "onibuses"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mTRANSACTION (92.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 115ms (ActiveRecord: 94.7ms | Allocations: 3710)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 20:05:44 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.2ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 5326)
+Completed 200 OK in 42ms (Views: 36.3ms | ActiveRecord: 0.4ms | Allocations: 6823)
+
+
+Started DELETE "/onibuses/5" for ::1 at 2020-12-13 20:05:45 -0300
+Processing by OnibusesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mOnibus Load (0.2ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses" WHERE "onibuses"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/onibuses_controller.rb:67:in `set_onibus'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mOnibus Destroy (0.8ms)[0m  [1m[31mDELETE FROM "onibuses" WHERE "onibuses"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mTRANSACTION (91.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 115ms (ActiveRecord: 92.8ms | Allocations: 3711)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 20:05:45 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1044)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | Allocations: 5213)
+Completed 200 OK in 48ms (Views: 42.0ms | ActiveRecord: 0.3ms | Allocations: 6706)
+
+
+Started DELETE "/onibuses/6" for ::1 at 2020-12-13 20:05:47 -0300
+Processing by OnibusesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses" WHERE "onibuses"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/onibuses_controller.rb:67:in `set_onibus'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mOnibus Destroy (5.7ms)[0m  [1m[31mDELETE FROM "onibuses" WHERE "onibuses"."id" = ?[0m  [["id", 6]]
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mTRANSACTION (81.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 108ms (ActiveRecord: 87.7ms | Allocations: 3713)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 20:05:47 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.4ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 932)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.8ms | Allocations: 5102)
+Completed 200 OK in 56ms (Views: 45.3ms | ActiveRecord: 0.6ms | Allocations: 6595)
+
+
+Started DELETE "/onibuses/7" for ::1 at 2020-12-13 20:05:48 -0300
+Processing by OnibusesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses" WHERE "onibuses"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/onibuses_controller.rb:67:in `set_onibus'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mOnibus Destroy (1.4ms)[0m  [1m[31mDELETE FROM "onibuses" WHERE "onibuses"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mTRANSACTION (87.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 112ms (ActiveRecord: 89.6ms | Allocations: 3739)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 20:05:48 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.2ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 820)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.9ms | Allocations: 5001)
+Completed 200 OK in 44ms (Views: 38.7ms | ActiveRecord: 0.4ms | Allocations: 6497)
+
+
+Started DELETE "/onibuses/8" for ::1 at 2020-12-13 20:05:50 -0300
+Processing by OnibusesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"8"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses" WHERE "onibuses"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/onibuses_controller.rb:67:in `set_onibus'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mOnibus Destroy (2.5ms)[0m  [1m[31mDELETE FROM "onibuses" WHERE "onibuses"."id" = ?[0m  [["id", 8]]
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+  [1m[36mTRANSACTION (86.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/onibuses_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 107ms (ActiveRecord: 89.1ms | Allocations: 3714)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 20:05:50 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.1ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 708)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 4887)
+Completed 200 OK in 41ms (Views: 36.2ms | ActiveRecord: 0.3ms | Allocations: 6380)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (121.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (72.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20201213175727)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201213175727"]]
+  [1m[36mTRANSACTION (87.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateOnibuses (20201213235446)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Id_Onibus" varchar(20), "Apelido" varchar, "Terminal_Partida" varchar, "Terminal_Chegada" varchar, "CodigoOnibus" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201213235446"]]
+  [1m[36mTRANSACTION (75.3ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateLocalizacaoOnibuses (20201213235735)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "localizacao_onibuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "Usuario_Id" integer, "Onibus_Id_Onibus" varchar(20), "Localizacao" varchar, "Data_2" date, "Hora" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201213235735"]]
+  [1m[36mTRANSACTION (100.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-13 23:58:38.782161"], ["updated_at", "2020-12-13 23:58:38.782161"]]
+  [1m[36mTRANSACTION (78.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-12-13 20:59:22 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.5ms | Allocations: 338)
+Completed 200 OK in 16ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2601)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 20:59:33 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 401 Unauthorized in 12ms (ActiveRecord: 1.5ms | Allocations: 3120)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 20:59:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 614)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2813)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 69.3ms | Allocations: 10907)
+Completed 200 OK in 83ms (Views: 77.9ms | ActiveRecord: 0.0ms | Allocations: 16603)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-12-13 20:59:40 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"teste@teste", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "teste@teste"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.3ms | Allocations: 1572)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"teste@teste", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 153)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1018)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.0ms | Allocations: 5249)
+Completed 200 OK in 226ms (Views: 39.0ms | ActiveRecord: 0.0ms | Allocations: 6321)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-12-13 20:59:42 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"teste@teste", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "teste@teste"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.3ms | Allocations: 1413)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"teste@teste", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 153)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 5248)
+Completed 200 OK in 221ms (Views: 37.9ms | ActiveRecord: 0.0ms | Allocations: 5781)
+
+
+Started GET "/" for ::1 at 2020-12-13 20:59:54 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.0ms | Allocations: 217)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 868)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 20:59:56 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 20:59:56 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 153)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1021)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.2ms | Allocations: 5241)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms | Allocations: 5846)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:01:35 -0300
+  
+SyntaxError (D:/rails/GrupoP/app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  skip_before_action: authenticate_user!
+                    ^
+):
+  
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:02:30 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (D:/rails/GrupoP/app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  skip_before_action: authenticate_user!
+                    ^
+):
+  
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:02:31 -0300
+  
+SyntaxError (D:/rails/GrupoP/app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  skip_before_action: authenticate_user!
+                    ^
+):
+  
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:02:32 -0300
+  
+SyntaxError (D:/rails/GrupoP/app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  skip_before_action: authenticate_user!
+                    ^
+):
+  
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:02:33 -0300
+  
+SyntaxError (D:/rails/GrupoP/app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  skip_before_action: authenticate_user!
+                    ^
+):
+  
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:02:33 -0300
+  
+SyntaxError (D:/rails/GrupoP/app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  skip_before_action: authenticate_user!
+                    ^
+):
+  
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:02:34 -0300
+  
+SyntaxError (D:/rails/GrupoP/app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  skip_before_action: authenticate_user!
+                    ^
+):
+  
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:02:35 -0300
+  
+SyntaxError (D:/rails/GrupoP/app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  skip_before_action: authenticate_user!
+                    ^
+):
+  
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:02:35 -0300
+  
+SyntaxError (D:/rails/GrupoP/app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  skip_before_action: authenticate_user!
+                    ^
+):
+  
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/localizacao_onibuses_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:02:58 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1787)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.6ms | Allocations: 9505)
+Completed 200 OK in 64ms (Views: 56.1ms | ActiveRecord: 0.5ms | Allocations: 11845)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 21:03:31 -0300
+Processing by OnibusesController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 919)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-13 21:03:31 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 610)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 2787)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 6959)
+Completed 200 OK in 56ms (Views: 48.7ms | ActiveRecord: 0.7ms | Allocations: 13306)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-12-13 21:03:37 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 222)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 142)
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1878)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 6055)
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.0ms | Allocations: 7351)
+
+
+Started POST "/users" for ::1 at 2020-12-13 21:03:48 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"teste@teste", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "teste@teste"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "teste@teste"], ["encrypted_password", "$2a$12$hu5n2czdJnVObp1TRirSQOZ5mqPEysZ9VY38t5sZn0yvFjGD8U/7u"], ["created_at", "2020-12-14 00:03:48.718347"], ["updated_at", "2020-12-14 00:03:48.718347"]]
+  [1m[36mTRANSACTION (80.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/onibuses
+Completed 302 Found in 288ms (ActiveRecord: 81.6ms | Allocations: 7834)
+
+
+Started GET "/onibuses" for ::1 at 2020-12-13 21:03:48 -0300
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.4ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1027)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 5207)
+Completed 200 OK in 51ms (Views: 42.5ms | ActiveRecord: 0.7ms | Allocations: 7537)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mOnibus Destroy (198.3ms)[0m  [1m[31mDELETE FROM "onibuses"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Apelido", "Terminal_Partida", "Terminal_Chegada", "CodigoOnibus", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "8012-10"], ["Apelido", "8012"], ["Terminal_Partida", "Metro Butanta"], ["Terminal_Chegada", "Cid. Universitaria"], ["CodigoOnibus", 1], ["created_at", "2020-12-14 00:09:54.032504"], ["updated_at", "2020-12-14 00:09:54.032504"]]
+  [1m[36mTRANSACTION (77.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Apelido", "Terminal_Partida", "Terminal_Chegada", "CodigoOnibus", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "8022-10"], ["Apelido", "8022"], ["Terminal_Partida", "Metro Butanta"], ["Terminal_Chegada", "Cid. Universitaria"], ["CodigoOnibus", 2], ["created_at", "2020-12-14 00:09:54.113472"], ["updated_at", "2020-12-14 00:09:54.113472"]]
+  [1m[36mTRANSACTION (81.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.3ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Apelido", "Terminal_Partida", "Terminal_Chegada", "CodigoOnibus", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "177H-10"], ["Apelido", "177H"], ["Terminal_Partida", "Metro Santana"], ["Terminal_Chegada", "Cid. Universitaria"], ["CodigoOnibus", 3], ["created_at", "2020-12-14 00:09:54.198815"], ["updated_at", "2020-12-14 00:09:54.198815"]]
+  [1m[36mTRANSACTION (80.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Apelido", "Terminal_Partida", "Terminal_Chegada", "CodigoOnibus", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "701U-10"], ["Apelido", "701U"], ["Terminal_Partida", "Metro Santana"], ["Terminal_Chegada", "Cid. Universitaria"], ["CodigoOnibus", 4], ["created_at", "2020-12-14 00:09:54.283323"], ["updated_at", "2020-12-14 00:09:54.283323"]]
+  [1m[36mTRANSACTION (81.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (0.9ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Apelido", "Terminal_Partida", "Terminal_Chegada", "CodigoOnibus", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "702U-10"], ["Apelido", "702U"], ["Terminal_Partida", "Cid. Universitaria"], ["Terminal_Chegada", "Term. Pq. D. Pedro II"], ["CodigoOnibus", 5], ["created_at", "2020-12-14 00:09:54.368234"], ["updated_at", "2020-12-14 00:09:54.368234"]]
+  [1m[36mTRANSACTION (81.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Apelido", "Terminal_Partida", "Terminal_Chegada", "CodigoOnibus", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "7181-10"], ["Apelido", "7181"], ["Terminal_Partida", "Cid. Universitaria"], ["Terminal_Chegada", "Term. Princ. Isabel"], ["CodigoOnibus", 6], ["created_at", "2020-12-14 00:09:54.453370"], ["updated_at", "2020-12-14 00:09:54.453370"]]
+  [1m[36mTRANSACTION (81.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (0.8ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Apelido", "Terminal_Partida", "Terminal_Chegada", "CodigoOnibus", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "7411-10"], ["Apelido", "7411"], ["Terminal_Partida", "Cid. Universitaria"], ["Terminal_Chegada", "Pca. da Se"], ["CodigoOnibus", 7], ["created_at", "2020-12-14 00:09:54.538106"], ["updated_at", "2020-12-14 00:09:54.538106"]]
+  [1m[36mTRANSACTION (81.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOnibus Create (1.0ms)[0m  [1m[32mINSERT INTO "onibuses" ("Id_Onibus", "Apelido", "Terminal_Partida", "Terminal_Chegada", "CodigoOnibus", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["Id_Onibus", "809U-10"], ["Apelido", "809U"], ["Terminal_Partida", "Cid. Universitaria"], ["Terminal_Chegada", "Metro Barra Funda"], ["CodigoOnibus", 8], ["created_at", "2020-12-14 00:09:54.623281"], ["updated_at", "2020-12-14 00:09:54.623281"]]
+  [1m[36mTRANSACTION (81.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/onibuses" for ::1 at 2020-12-13 21:10:07 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OnibusesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering onibuses/index.html.erb within layouts/application
+  [1m[36mOnibus Load (0.3ms)[0m  [1m[34mSELECT "onibuses".* FROM "onibuses"[0m
+  ↳ app/views/onibuses/index.html.erb:18
+  Rendered onibuses/index.html.erb within layouts/application (Duration: 17.9ms | Allocations: 5699)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.3ms | Allocations: 13447)
+Completed 200 OK in 91ms (Views: 69.8ms | ActiveRecord: 1.8ms | Allocations: 22749)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:10:47 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.4ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1036)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 5170)
+Completed 200 OK in 50ms (Views: 47.5ms | ActiveRecord: 0.4ms | Allocations: 6359)
+
+
+Started GET "/localizacao_onibuses/new" for ::1 at 2020-12-13 21:10:54 -0300
+Processing by LocalizacaoOnibusesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/new.html.erb within layouts/application
+  Rendered localizacao_onibuses/_form.html.erb (Duration: 29.6ms | Allocations: 7018)
+  Rendered localizacao_onibuses/new.html.erb within layouts/application (Duration: 31.2ms | Allocations: 7360)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.6ms | Allocations: 11541)
+Completed 200 OK in 74ms (Views: 67.5ms | ActiveRecord: 0.6ms | Allocations: 15659)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:11:01 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 714)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 4883)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.1ms | Allocations: 5288)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:18:53 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1441)
+  Rendered layout layouts/application.html.erb (Duration: 63.0ms | Allocations: 10136)
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.4ms | Allocations: 10521)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after ".../sass-lang.com/": expected 1 selector or at-rule, was "background-image: u"
+        on line 1:1 of app/assets/stylesheets/localizacao_onibuses.scss
+>> // Place all the styles related to the Localizacao_Onibuses controller here.
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/localizacao_onibuses.scss:1
+app/views/layouts/application.html.erb:9
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:20:18 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 725)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 63.1ms | Allocations: 14722)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.1ms | Allocations: 15141)
+
+
+Started GET "/public/mapa/mapa-usp.jpeg" for ::1 at 2020-12-13 21:20:19 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/public/mapa/mapa-usp.jpeg"):
+  
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:20:21 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 711)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 4885)
+Completed 200 OK in 34ms (Views: 33.8ms | ActiveRecord: 0.1ms | Allocations: 5282)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:20:22 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 4886)
+Completed 200 OK in 34ms (Views: 33.8ms | ActiveRecord: 0.1ms | Allocations: 5283)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:20:22 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 714)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 4890)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.1ms | Allocations: 5292)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:20:23 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 4886)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.1ms | Allocations: 5287)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:21:30 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.5ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 70.8ms | Allocations: 15654)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.5ms | Allocations: 16051)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:22:30 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.7ms | Allocations: 15618)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.2ms | Allocations: 16015)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:22:32 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 4893)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.1ms | Allocations: 5294)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:22:33 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 4894)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.1ms | Allocations: 5291)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:22:34 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 4898)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.1ms | Allocations: 5299)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:22:35 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 4893)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.1ms | Allocations: 5294)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:00 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 63.1ms | Allocations: 16090)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.1ms | Allocations: 16487)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:01 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.8ms | Allocations: 4759)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.1ms | Allocations: 5156)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:01 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.5ms | Allocations: 4893)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.1ms | Allocations: 5290)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:02 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.1ms | Allocations: 4893)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.1ms | Allocations: 5294)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:15 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.3ms | Allocations: 16139)
+Completed 200 OK in 74ms (Views: 73.3ms | ActiveRecord: 0.1ms | Allocations: 16536)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:15 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 4894)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.1ms | Allocations: 5295)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:16 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 4893)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.1ms | Allocations: 5290)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:17 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | Allocations: 4893)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.2ms | Allocations: 5290)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:17 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 4893)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.1ms | Allocations: 5290)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:17 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 4893)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.1ms | Allocations: 5290)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:18 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.7ms | Allocations: 4893)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.1ms | Allocations: 5294)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:18 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.3ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.0ms | Allocations: 7307)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.3ms | Allocations: 7708)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:23:18 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.3ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.4ms | Allocations: 4898)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.3ms | Allocations: 5295)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:17 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 720)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 64.5ms | Allocations: 16131)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.1ms | Allocations: 16543)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:18 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.3ms | Allocations: 4893)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.1ms | Allocations: 5290)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:18 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.4ms | Allocations: 4894)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.1ms | Allocations: 5291)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:19 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.3ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 4893)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.3ms | Allocations: 5290)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:20 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.3ms | Allocations: 4898)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.1ms | Allocations: 5299)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:20 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 4898)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.1ms | Allocations: 5299)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:50 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 72.1ms | Allocations: 16978)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.2ms | Allocations: 17375)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:51 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.4ms | Allocations: 4893)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.1ms | Allocations: 5294)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:51 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.7ms | Allocations: 4893)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.2ms | Allocations: 5290)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:51 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.4ms | Allocations: 7239)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.1ms | Allocations: 7636)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:52 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 4893)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.1ms | Allocations: 5290)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:24:52 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 7331)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.2ms | Allocations: 7732)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:25:02 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.4ms | Allocations: 16561)
+Completed 200 OK in 76ms (Views: 75.6ms | ActiveRecord: 0.1ms | Allocations: 16962)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:25:25 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 64.9ms | Allocations: 16092)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.1ms | Allocations: 16489)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:25:28 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 4893)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.1ms | Allocations: 5294)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:29:15 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 712)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 6830)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.2ms | Allocations: 7207)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "body{": expected "}", was '<img src="mapa-usp.'
+        on line 4:6 of app/assets/stylesheets/localizacao_onibuses.scss
+>> body{
+
+   -----^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/localizacao_onibuses.scss:4
+app/views/layouts/application.html.erb:9
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:32:37 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 711)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.2ms | Allocations: 15637)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.1ms | Allocations: 16038)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:33:30 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 66.5ms | Allocations: 15629)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.1ms | Allocations: 16030)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:34:08 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 67.5ms | Allocations: 17448)
+Completed 200 OK in 71ms (Views: 69.8ms | ActiveRecord: 0.2ms | Allocations: 17845)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:34:21 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.6ms | Allocations: 16593)
+Completed 200 OK in 72ms (Views: 70.8ms | ActiveRecord: 0.1ms | Allocations: 16994)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:34:41 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 70.3ms | Allocations: 16584)
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.1ms | Allocations: 16985)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:34:57 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.7ms | Allocations: 4934)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.2ms | Allocations: 5331)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:35:47 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.7ms | Allocations: 16575)
+Completed 200 OK in 78ms (Views: 76.9ms | ActiveRecord: 0.2ms | Allocations: 16972)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:36:47 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 66.6ms | Allocations: 17015)
+Completed 200 OK in 70ms (Views: 68.8ms | ActiveRecord: 0.1ms | Allocations: 17416)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:36:49 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.4ms | Allocations: 4893)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.1ms | Allocations: 5294)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:37:02 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.1ms | Allocations: 16514)
+Completed 200 OK in 77ms (Views: 75.5ms | ActiveRecord: 0.1ms | Allocations: 16911)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:37:03 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.2ms | Allocations: 4898)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.1ms | Allocations: 5296)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:37:04 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 4898)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.1ms | Allocations: 5299)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:37:04 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | Allocations: 4901)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.1ms | Allocations: 5302)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:37:05 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.2ms | Allocations: 4919)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.1ms | Allocations: 5316)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:37:25 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.2ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 4934)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.2ms | Allocations: 5335)
+
+
+Started GET "/localizacao_onibuses" for ::1 at 2020-12-13 21:37:33 -0300
+Processing by LocalizacaoOnibusesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering localizacao_onibuses/index.html.erb within layouts/application
+  [1m[36mLocalizacaoOnibus Load (0.1ms)[0m  [1m[34mSELECT "localizacao_onibuses".* FROM "localizacao_onibuses"[0m
+  ↳ app/views/localizacao_onibuses/index.html.erb:18
+  Rendered localizacao_onibuses/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 4893)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.1ms | Allocations: 5290)
+
+
+Started GET "/" for ::1 at 2020-12-13 22:10:20 -0300
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.1ms | Allocations: 338)
+Completed 200 OK in 42ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 2601)
+
+
