@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id onibus:</strong>
+  <%= @onibus.Id_Onibus %>
+</p>
+
+<p>
+  <strong>Apelido:</strong>
+  <%= @onibus.Apelido %>
+</p>
+
+<p>
+  <strong>Terminal partida:</strong>
+  <%= @onibus.Terminal_Partida %>
+</p>
+
+<p>
+  <strong>Terminal chegada:</strong>
+  <%= @onibus.Terminal_Chegada %>
+</p>
+
+<p>
+  <strong>Codigoonibus:</strong>
+  <%= @onibus.CodigoOnibus %>
+</p>
+
+<%= link_to 'Edit', edit_onibus_path(@onibus) %> |
+<%= link_to 'Back', onibuses_path %>

@@ -1,0 +1,42 @@
+<%= form_with(model: onibus) do |form| %>
+  <% if onibus.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(onibus.errors.count, "error") %> prohibited this onibus from being saved:</h2>
+
+      <ul>
+        <% onibus.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :Id_Onibus %>
+    <%= form.text_field :Id_Onibus %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Apelido %>
+    <%= form.text_field :Apelido %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Terminal_Partida %>
+    <%= form.text_field :Terminal_Partida %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Terminal_Chegada %>
+    <%= form.text_field :Terminal_Chegada %>
+  </div>
+
+  <div class="field">
+    <%= form.label :CodigoOnibus %>
+    <%= form.number_field :CodigoOnibus %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

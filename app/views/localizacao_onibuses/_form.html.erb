@@ -1,0 +1,42 @@
+<%= form_with(model: localizacao_onibus) do |form| %>
+  <% if localizacao_onibus.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(localizacao_onibus.errors.count, "error") %> prohibited this localizacao_onibus from being saved:</h2>
+
+      <ul>
+        <% localizacao_onibus.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :Usuario_Id %>
+    <%= form.number_field :Usuario_Id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Onibus_Id_Onibus %>
+    <%= form.text_field :Onibus_Id_Onibus %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Localizacao %>
+    <%= form.text_field :Localizacao %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Data_2 %>
+    <%= form.date_select :Data_2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Hora %>
+    <%= form.datetime_select :Hora %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

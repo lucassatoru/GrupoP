@@ -1,0 +1,2 @@
+class LocalizacaoOnibus < ApplicationRecord
+end
